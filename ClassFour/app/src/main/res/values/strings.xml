@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Class Four</string>
+    <string name="intro">Which product you want to buy ? </string>
+    <string name="laptop">Laptop</string>
+    <string name="pc">Desktop</string>
+    <string name="keyboard"> Keyboard</string>
+    <string name="mouse">Mouse</string>
+    <string name="pendrive">Pendrive</string>
+    <string name="hdd"> HDD</string>
+    <string name="ssd">SSD</string>
+
+
+
+
+</resources>

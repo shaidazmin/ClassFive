@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.nz.classfour.MainActivity">
+
+    <TextView
+        android:id="@+id/intro"
+        android:padding="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="35sp"
+        android:textStyle="italic"
+        android:text="@string/intro"
+        />
+
+
+    <LinearLayout
+
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <CheckBox
+        android:id="@+id/laptop"
+        android:layout_margin="15sp"
+        android:padding="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#003cff"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="@string/laptop"
+        />
+
+    <CheckBox
+        android:layout_margin="15sp"
+        android:padding="10sp"
+        android:id="@+id/pc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#003cff"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="@string/pc"
+        />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:layout_margin="15sp"
+            android:padding="10sp"
+            android:id="@+id/hdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#003cff"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="@string/hdd"
+            />
+
+        <CheckBox
+            android:layout_margin="15sp"
+            android:padding="10sp"
+            android:id="@+id/ssd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#003cff"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="@string/ssd"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:layout_margin="15sp"
+            android:padding="10sp"
+            android:id="@+id/mouse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#003cff"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="@string/mouse"
+            />
+        <CheckBox
+
+            android:layout_margin="15sp"
+            android:padding="10sp"
+            android:id="@+id/pendrive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#003cff"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="@string/pendrive"
+            />
+
+
+
+    </LinearLayout>
+
+
+ <Button
+     android:id="@+id/order"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Order"
+     android:padding="10sp"
+     />
+
+
+    <TextView
+        android:id="@+id/result"
+        android:textSize="20sp"
+        android:textStyle="italic|bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
